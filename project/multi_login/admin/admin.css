@@ -1,0 +1,80 @@
+body{
+	font-family:Sans-Serif;
+	background-color:cornsilk;
+}
+
+.profile_info {
+	position: absolute;
+	top:50px;
+	left:1150px;
+}
+
+.list {
+	position: absolute;
+	top:150px;
+	left:50px;
+	font-size:50px;
+	list-style-type: circle;
+	
+}
+
+.menu {
+	color: #6495ED;
+	font-size: 50px;
+}
+
+.header {
+	position: absolute;
+	left:450px;
+	top:50px;
+	width: 400px;
+	height: 100px;
+	background: #003366;
+	color:white;
+	text-align: center;
+}
+button[name=register_btn] {
+	background: #003366;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	background-image: url('../images/footimg.png');
+	height:20%;
+}
+
+.p {
+	text-align:center;
+	color:red;
+	font-size: 80px;
+	font-style: bold;
+	
+}
+
+#table-review {
+	width: 80%;
+	margin: 30px;
+	margin-left: 120px;
+	margin-top: 50px;
+	border: 5px solid black;
+}
+
+#table-head {
+	height:50%;
+	background-color: #4CAF50;
+	color: white;
+	font-size:30px;
+}
+td {
+	padding: 10px;
+	border: 1px solid;
+	font-size:20px;
+}
+
+h1{
+	text-align:center;
+	font-size: 70px;
+	color: #1E90FF
+}

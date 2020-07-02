@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Cart</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	
+	<h1 class="shopping-cart">Shopping cart</h1>
+
+	<div class="products-container">
+		<div class="product-header">
+			<h5 class="product-title">PRODUCT</h5>
+			<h5 class="price">PRICE</h5>
+			<h5 class="quantity">QUANTITY</h5>
+			<h5 class="total">TOTAL</h5>
+		</div>
+		<div class="products">
+		
+		</div>
+	</div>
+
+	<div class="cart">
+		<a href="cart.html"><ion-icon name="cart-outline"></ion-icon>Cart <span>0</span></a>
+		<a href="index.html" id="home"><span>Home</span></a>
+	</div>
+	
+	<form class="form" action="db.php"  method="post">
+		<label for="name">Name:</label><br>
+		<input type="text" id="name" name="name"><br>
+		<label for="adr">Address:</label><br>
+		<input type="text" id="adr" name="adr">
+		<div class="submit">
+		<input type="submit" value="Submit" onclick="greeting()">
+		</div>
+	</form>
+	
+	<button class="remove-button" type="button">Clear Cart</button>
+	<a id="logout" href="multi_login/index.php?logout='1'" style="position:absolute; top:20px;left:30px;color:red;">logout</a>
+	
+	<script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+	<script src="script.js"></script>
+	<script src="cart.js"></script>
+</body>
+</html>
